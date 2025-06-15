@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "gemini-coding": {
+      "command": "~/.claude-mcp-servers/gemini_coding/venv/bin/python",
+      "args": ["~/.claude-mcp-servers/gemini_coding/server.py"],
+      "env": {
+        "GEMINI_API_KEY": "your-gemini-api-key-here"
+      }
+    }
+  }
+}
